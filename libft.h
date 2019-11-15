@@ -6,7 +6,7 @@
 /*   By: mandric <marvin@le-101.fr>                 +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2019/10/16 11:26:57 by mandric      #+#   ##    ##    #+#       */
-/*   Updated: 2019/11/05 17:24:06 by mandric     ###    #+. /#+    ###.fr     */
+/*   Updated: 2019/11/12 14:43:11 by mandric     ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -26,7 +26,7 @@ int					ft_isdigit(int c);
 int					ft_isprint(int c);
 char				*ft_itoa(int nbr);
 void				*ft_memcpy(void *dst, const void *src, size_t n);
-char				*ft_memchr(const void *s, int c, size_t n);
+void				*ft_memchr(const void *s, int c, size_t n);
 int					ft_memcmp(const void *s1, const void *s2, size_t n);
 void				*ft_memccpy(void *dst, const void *src, int c, size_t n);
 void				*ft_memmove(void *dst, const void *src, size_t len);
